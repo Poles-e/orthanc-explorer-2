@@ -129,17 +129,9 @@ export default {
     <div class="nav-side-menu">
         <div class="nav-side-content">
             <div v-if="!hasCustomLogo">
-                <img class="orthanc-logo" src="../assets/images/orthanc.png"/>
+                <img class="orthanc-logo" src="../assets/images/polese.png"/>
             </div>
-            <div v-if="hasCustomLogo">
-                <img class="custom-logo" :src="customLogoUrl" />
-            </div>
-            <div v-if="hasCustomLogo">
-                <p class="powered-by-orthanc">
-                powered by
-                <img src="../assets/images/orthanc.png" />
-                </p>
-            </div>
+
             <div v-if="uiOptions.ShowOrthancName" class="orthanc-name">
                 <p>{{ system.Name }}</p>
             </div>
