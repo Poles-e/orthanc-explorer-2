@@ -60,8 +60,12 @@ export default {
 </template>
 
 <style>
+@font-face {
+  font-family: 'Manrope';
+  src: url('WebApplication/src/assets/font/Manrope.ttf');
+}
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: Manrope, serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
