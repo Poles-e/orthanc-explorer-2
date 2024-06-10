@@ -163,7 +163,7 @@ jobs:
         - {
             name: "Ubuntu", 
             artifact: "libOrthancExplorer2.so",
-            artifact_name: "libOrthancExplorer2-ubuntu.so",
+            artifact_name: "libOrthancExplorer2.so",
             os: ubuntu-latest
           }
 
